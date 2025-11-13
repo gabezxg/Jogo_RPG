@@ -31,15 +31,15 @@ abstract class Villain extends Character {
         return $this->experiencia;
     }
     public function dropItems(): array {
-        $itensDropados = [];
+        $droppedItems = [];
         foreach ($this->lootTable as $drop) {
             $item = $drop['item'];
             $chance = $drop ['drop'];
-            $sorteio = rand(1, 3);
-            if ($sorteio <= $chance) {
-                $itensDropados[] = $item;
+            $prize_draw = rand(1, 3);
+            if ($prize_draw <= $chance) {
+                $droppedItems[] = $item;
             }
         }
-        return $itensDropados;
+        return $droppedItems;
     }
 }

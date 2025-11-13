@@ -2,7 +2,7 @@
 
 namespace App\Http\classes\RPG;
 
-abstract class Item {
+abstract class Items {
 
     private string $name;
     private float $weight;
