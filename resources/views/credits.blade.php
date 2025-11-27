@@ -12,7 +12,7 @@
 
         <div class="credits-name">
             Desenvolvido por:<br>
-            <strong>Gabriel Carvalho</strong>
+            <strong>Gabriel Carvalho</strong><br><br>
         </div>
         <a href="/" class="voltar-button">Voltar</a>
     </div>
